@@ -27,6 +27,7 @@ DEBUG = bool(int(os.environ.get('DEGUB', 1)))
 
 ALLOWED_HOSTS = [
     'ec2-13-53-93-182.eu-north-1.compute.amazonaws.com',
+    'sudenazcaglar-lb-1568923285.eu-north-1.elb.amazonaws.com',
     '127.0.0.1',
     'sudenazcaglar.com',
     'www.sudenazcaglar.com'
