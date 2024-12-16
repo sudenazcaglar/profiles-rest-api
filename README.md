@@ -1,3 +1,3 @@
 # Profiles REST API
 
-Profiles REST API course code.
+API arayüzüne [buradan](http://www.sudenazcaglar.com/api) ulaşabilirsiniz.
