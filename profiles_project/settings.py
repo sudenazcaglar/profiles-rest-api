@@ -131,3 +131,10 @@ STATIC_URL = '/static/'
 AUTH_USER_MODEL = 'profiles_api.UserProfile'
 
 STATIC_ROOT = 'static/'
+
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.BrowsableAPIRenderer',
+        'rest_framework.renderers.JSONRenderer',
+    ]
+}
